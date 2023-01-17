@@ -1,0 +1,30 @@
+#billboard-form {
+    font-family: Arial;
+    padding: 20px;
+    border: 1px solid #ccc;
+    width: 300px;
+    margin: auto;
+}
+
+label{
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"], input[type="number"]{
+    padding: 12px 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+input [type="button"]{
+    background-color: black;
+    color: white;
+    padding: 14px 20px;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
